@@ -1,0 +1,159 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+/* Application-wide Styles */
+html{
+  direction: rtl;
+}
+body, input[text], button {
+  color: #888;
+  font-family: 'Cairo', sans-serif;
+}
+a {
+  cursor: pointer;
+  cursor: hand;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+/* Navigation link styles */
+.navbar {
+  padding: 20px 16px;
+  background: #fff !important;
+    border-bottom: 8px solid #F5F5F5;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, .18);
+}
+.navbar-brand{
+  display: flex !important;
+  align-items: center
+}
+.navbar-brand p{    
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+  color: #000;
+  text-align: right;
+}
+.navbar-brand p small{  
+  font-size: 12px;
+}
+.navbar-nav .nav-link{
+  color: #000 !important;
+  margin-top: 0 !important;
+  margin-right: 40px !important;
+}
+nav div, nav a {
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: transparent !important;
+  border-radius: 4px;
+  margin: 0;
+}
+nav a:visited, a:link {
+  color: #607D8B;
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;
+}
+nav a.active {
+  color: #039be5;
+}
+
+/* everywhere else */
+* {
+  font-family: 'Cairo', sans-serif;
+}
+
+
+#contact{
+  background: #1C1F27;
+  color: #fff;
+}
+#contact h1{
+  color: #fff;
+}
+
+#clients h4{
+  color: #000;
+}
+
+footer{
+  background: #1F2126;
+  color: #fff;
+  font-size: 12px;
+}
+
+
+.bb-1{
+  border-bottom: 1px solid #979797;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #88CA3E;
+  border-color: #88CA3E;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #75b132;
+  border-color: #75b132;
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::after{
+  background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'><circle r='3' fill='%2363863A'/></svg>");
+}
+
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before{
+  background-color: #7ED321;
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(126, 211, 33, .25);
+}
+
+
+.breadcrumb-divider {
+  background: #ADCC8A;
+  color: #fff; 
+}
+.breadcrumb-divider .container{
+  position: relative;
+}
+
+.breadcrumb-divider h1{
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.breadcrumb-divider p {
+  position: absolute;
+  right: 30px;
+  margin: 0;
+  top: -5px;
+  line-height: 40px;
+}
+
+.breadcrumb-divider p img{
+width: 40px;
+float: right;
+margin-left: 10px;
+}

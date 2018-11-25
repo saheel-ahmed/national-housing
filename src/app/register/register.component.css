@@ -1,0 +1,23 @@
+.form-sections {
+    padding: 3rem;
+    background: #F8F8F8;
+    border: 1px solid #D0D0D0;
+    text-align: right;
+    color: #15181F;
+}
+
+.form-section-title{
+    font-size: 1.4rem;
+}
+.custom-control-label::before,.custom-control-label::after{
+    right: -1.5rem;
+    left: unset;
+}
+
+.form-group label{
+    font-size: 14px;
+}
+
+.form-control {
+    font-size: 14px;
+}

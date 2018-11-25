@@ -1,0 +1,37 @@
+.home-slider{
+    background: #EFEFEF;
+}
+
+.slider-content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sc-subtitle {
+    color: #969EAC;
+    font-size: 12px;
+}
+.sc-title{
+    color: #15181F;
+    font-size: 20px;
+}
+
+.sc-text{
+    color: #656A77;
+    font-size: 14px;
+}
+
+#caption{
+    background: rgba(188, 188, 188, .11);
+    color: #262B38;
+    font-size: 20px;
+}
+
+.info-title{
+    color: #15181F;
+}
+
+.info-text{
+    color: #848894;
+}
